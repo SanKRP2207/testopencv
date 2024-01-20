@@ -1,0 +1,29 @@
+# created by virtualenv automatically
+*
+# Virtual Environment
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary files
+*.bak
+*.swp
+*~
+
+# IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore the dataset (assuming it can be large and doesn't need to be versioned)
+images/
+
+# Ignore trained models or large output files
+svm_model.xml
+
+# Ignore any local configurations or credentials
+config.ini
+secrets.json
